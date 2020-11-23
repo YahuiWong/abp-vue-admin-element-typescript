@@ -48,15 +48,15 @@
   </ItemGroup>
 
   <ItemGroup>
-    <ProjectReference Include="..\..\..\modules\common\LINGYUN.Abp.EventBus.CAP\LINGYUN.Abp.EventBus.CAP.csproj" />
-    <ProjectReference Include="..\..\..\modules\common\LINGYUN.Abp.ExceptionHandling.Emailing\LINGYUN.Abp.ExceptionHandling.Emailing.csproj" />
-    <ProjectReference Include="..\..\..\modules\common\LINGYUN.Abp.Notifications\LINGYUN.Abp.Notifications.csproj" />
-    <ProjectReference Include="..\..\..\modules\file-management\LINGYUN.Abp.FileManagement.Application\LINGYUN.Abp.FileManagement.Application.csproj" />
-    <ProjectReference Include="..\..\..\modules\file-management\LINGYUN.Abp.FileManagement.HttpApi\LINGYUN.Abp.FileManagement.HttpApi.csproj" />
-    <ProjectReference Include="..\..\..\modules\platform\LINGYUN.Platform.Application\LINGYUN.Platform.Application.csproj" />
-    <ProjectReference Include="..\..\..\modules\platform\LINGYUN.Platform.EntityFrameworkCore\LINGYUN.Platform.EntityFrameworkCore.csproj" />
-    <ProjectReference Include="..\..\..\modules\platform\LINGYUN.Platform.HttpApi\LINGYUN.Platform.HttpApi.csproj" />
-    <ProjectReference Include="..\..\..\modules\tenants\LINGYUN.Abp.MultiTenancy.DbFinder\LINGYUN.Abp.MultiTenancy.DbFinder.csproj" />
+    <PackageReference Version="3.1.0" Include="LINGYUN.Abp.EventBus.CAP" />
+    <PackageReference Version="3.1.0" Include="LINGYUN.Abp.ExceptionHandling.Emailing" />
+    <PackageReference Version="3.1.0" Include="LINGYUN.Abp.Notifications" />
+    <PackageReference Version="3.1.0" Include="LINGYUN.Abp.FileManagement.Application" />
+    <PackageReference Version="3.1.0" Include="LINGYUN.Abp.FileManagement.HttpApi" />
+    <PackageReference Version="3.1.0" Include="LINGYUN.Platform.Application" />
+    <PackageReference Version="3.1.0" Include="LINGYUN.Platform.EntityFrameworkCore" />
+    <PackageReference Version="3.1.0" Include="LINGYUN.Platform.HttpApi" />
+    <PackageReference Version="3.1.0" Include="LINGYUN.Abp.MultiTenancy.DbFinder" />
   </ItemGroup>
 
 </Project>

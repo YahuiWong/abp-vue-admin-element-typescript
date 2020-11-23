@@ -31,8 +31,8 @@
   </ItemGroup>
 
   <ItemGroup>
-    <ProjectReference Include="..\..\..\modules\apigateway\LINGYUN.ApiGateway.HttpApi.Client\LINGYUN.ApiGateway.HttpApi.Client.csproj" />
-    <ProjectReference Include="..\..\..\modules\common\LINGYUN.Abp.EventBus.CAP\LINGYUN.Abp.EventBus.CAP.csproj" />
+    <PackageReference Version="3.1.0" Include="LINGYUN.ApiGateway.HttpApi.Client" />
+    <PackageReference Version="3.1.0" Include="LINGYUN.Abp.EventBus.CAP" />
   </ItemGroup>
 
 </Project>

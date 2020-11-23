@@ -42,18 +42,18 @@
   </ItemGroup>
 
   <ItemGroup>
-    <ProjectReference Include="..\..\..\modules\common\LINGYUN.Abp.ExceptionHandling.Notifications\LINGYUN.Abp.ExceptionHandling.Notifications.csproj" />
-    <ProjectReference Include="..\..\..\modules\common\LINGYUN.Abp.Hangfire.MySqlStorage\LINGYUN.Abp.Hangfire.Storage.MySql.csproj" />
-    <ProjectReference Include="..\..\..\modules\common\LINGYUN.Abp.BackgroundJobs.Hangfire\LINGYUN.Abp.BackgroundJobs.Hangfire.csproj" />
-    <ProjectReference Include="..\..\..\modules\common\LINGYUN.Abp.EventBus.CAP\LINGYUN.Abp.EventBus.CAP.csproj" />
-    <ProjectReference Include="..\..\..\modules\common\LINGYUN.Abp.IM.SignalR\LINGYUN.Abp.IM.SignalR.csproj" />
-    <ProjectReference Include="..\..\..\modules\common\LINGYUN.Abp.Notifications.SignalR\LINGYUN.Abp.Notifications.SignalR.csproj" />
-    <ProjectReference Include="..\..\..\modules\common\LINGYUN.Abp.Notifications.WeChat\LINGYUN.Abp.Notifications.WeChat.WeApp.csproj" />
-    <ProjectReference Include="..\..\..\modules\message\LINGYUN.Abp.MessageService.Application\LINGYUN.Abp.MessageService.Application.csproj" />
-    <ProjectReference Include="..\..\..\modules\message\LINGYUN.Abp.MessageService.EntityFrameworkCore\LINGYUN.Abp.MessageService.EntityFrameworkCore.csproj" />
-    <ProjectReference Include="..\..\..\modules\message\LINGYUN.Abp.MessageService.HttpApi\LINGYUN.Abp.MessageService.HttpApi.csproj" />
-    <ProjectReference Include="..\..\..\modules\tenants\LINGYUN.Abp.MultiTenancy.DbFinder\LINGYUN.Abp.MultiTenancy.DbFinder.csproj" />
-    <ProjectReference Include="..\..\..\modules\tenants\LINGYUN.Abp.MultiTenancy\LINGYUN.Abp.MultiTenancy.csproj" />
+    <PackageReference Version="3.1.0" Include="LINGYUN.Abp.ExceptionHandling.Notifications" />
+    <PackageReference Version="3.1.0" Include="LINGYUN.Abp.Hangfire.Storage.MySql" />
+    <PackageReference Version="3.1.0" Include="LINGYUN.Abp.BackgroundJobs.Hangfire" />
+    <PackageReference Version="3.1.0" Include="LINGYUN.Abp.EventBus.CAP" />
+    <PackageReference Version="3.1.0" Include="LINGYUN.Abp.IM.SignalR" />
+    <PackageReference Version="3.1.0" Include="LINGYUN.Abp.Notifications.SignalR" />
+    <PackageReference Version="3.1.0" Include="LINGYUN.Abp.Notifications.WeChat.WeApp" />
+    <PackageReference Version="3.1.0" Include="LINGYUN.Abp.MessageService.Application" />
+    <PackageReference Version="3.1.0" Include="LINGYUN.Abp.MessageService.EntityFrameworkCore" />
+    <PackageReference Version="3.1.0" Include="LINGYUN.Abp.MessageService.HttpApi" />
+    <PackageReference Version="3.1.0" Include="LINGYUN.Abp.MultiTenancy.DbFinder" />
+    <PackageReference Version="3.1.0" Include="LINGYUN.Abp.MultiTenancy" />
   </ItemGroup>
 
 </Project>

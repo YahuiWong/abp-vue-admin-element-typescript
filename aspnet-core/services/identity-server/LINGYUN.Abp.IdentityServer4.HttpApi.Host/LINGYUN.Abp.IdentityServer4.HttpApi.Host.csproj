@@ -46,18 +46,18 @@
   </ItemGroup>
 
   <ItemGroup>
-    <ProjectReference Include="..\..\..\modules\account\LINGYUN.Abp.Account.Application\LINGYUN.Abp.Account.Application.csproj" />
-    <ProjectReference Include="..\..\..\modules\account\LINGYUN.Abp.Account.HttpApi\LINGYUN.Abp.Account.HttpApi.csproj" />
-    <ProjectReference Include="..\..\..\modules\common\LINGYUN.Abp.EventBus.CAP\LINGYUN.Abp.EventBus.CAP.csproj" />
-    <ProjectReference Include="..\..\..\modules\common\LINGYUN.Abp.ExceptionHandling.Emailing\LINGYUN.Abp.ExceptionHandling.Emailing.csproj" />
-    <ProjectReference Include="..\..\..\modules\common\LINGYUN.Abp.Sms.Aliyun\LINGYUN.Abp.Sms.Aliyun.csproj" />
-    <ProjectReference Include="..\..\..\modules\identityServer\LINGYUN.Abp.IdentityServer.Application\LINGYUN.Abp.IdentityServer.Application.csproj" />
-    <ProjectReference Include="..\..\..\modules\identityServer\LINGYUN.Abp.IdentityServer.EntityFrameworkCore\LINGYUN.Abp.IdentityServer.EntityFrameworkCore.csproj" />
-    <ProjectReference Include="..\..\..\modules\identityServer\LINGYUN.Abp.IdentityServer.HttpApi\LINGYUN.Abp.IdentityServer.HttpApi.csproj" />
-    <ProjectReference Include="..\..\..\modules\identity\LINGYUN.Abp.Identity.Application\LINGYUN.Abp.Identity.Application.csproj" />
-    <ProjectReference Include="..\..\..\modules\identity\LINGYUN.Abp.Identity.EntityFrameworkCore\LINGYUN.Abp.Identity.EntityFrameworkCore.csproj" />
-    <ProjectReference Include="..\..\..\modules\identity\LINGYUN.Abp.Identity.HttpApi\LINGYUN.Abp.Identity.HttpApi.csproj" />
-    <ProjectReference Include="..\..\..\modules\tenants\LINGYUN.Abp.MultiTenancy.DbFinder\LINGYUN.Abp.MultiTenancy.DbFinder.csproj" />
+    <PackageReference Version="3.1.0" Include="LINGYUN.Abp.Account.Application" />
+    <PackageReference Version="3.1.0" Include="LINGYUN.Abp.Account.HttpApi" />
+    <PackageReference Version="3.1.0" Include="LINGYUN.Abp.EventBus.CAP" />
+    <PackageReference Version="3.1.0" Include="LINGYUN.Abp.ExceptionHandling.Emailing" />
+    <PackageReference Version="3.1.0" Include="LINGYUN.Abp.Sms.Aliyun" />
+    <PackageReference Version="3.1.0" Include="LINGYUN.Abp.IdentityServer.Application" />
+    <PackageReference Version="3.1.0" Include="LINGYUN.Abp.IdentityServer.EntityFrameworkCore" />
+    <PackageReference Version="3.1.0" Include="LINGYUN.Abp.IdentityServer.HttpApi" />
+    <PackageReference Version="3.1.0" Include="LINGYUN.Abp.Identity.Application" />
+    <PackageReference Version="3.1.0" Include="LINGYUN.Abp.Identity.EntityFrameworkCore" />
+    <PackageReference Version="3.1.0" Include="LINGYUN.Abp.Identity.HttpApi" />
+    <PackageReference Version="3.1.0" Include="LINGYUN.Abp.MultiTenancy.DbFinder" />
   </ItemGroup>
 
 </Project>
